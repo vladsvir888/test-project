@@ -1,0 +1,14 @@
+{
+  "name": "test-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "cleanup": "rm -rf .parcel-cache dist",
+    "dev": "npm run cleanup && parcel src/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "sharp": "^0.31.3"
+  }
+}
